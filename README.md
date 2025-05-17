@@ -9,32 +9,19 @@ yarn
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Start the app in xcode
 ```bash
-quasar dev
-```
-
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
+quasar dev -m capacitor -T ios
 ```
 
 
 ### Build the app for production
 ```bash
-quasar build
+quasar build -m capacitor -T ios
 ```
 
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+### Technology requriement
+- capacitor v4
+- xcode 13
+- cocoapods 1.16
+taget ios 13 min
