@@ -1,0 +1,14 @@
+{
+  "name": "example-ios",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "author": "n/a",
+  "private": true,
+  "dependencies": {
+    "@capacitor/app": "^4.1.1",
+    "@capacitor/cli": "^4.8.0",
+    "@capacitor/core": "^4.8.0",
+    "@capacitor/ios": "^4.8.2",
+    "@capacitor/splash-screen": "^4.1.2"
+  }
+}
